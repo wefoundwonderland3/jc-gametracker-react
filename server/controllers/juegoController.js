@@ -1,4 +1,4 @@
-import Juego from "../models/Juego.js";
+import Juego from "../models/juego.js";
 
 export const obtenerJuegos = async (req, res) => {
   const juegos = await Juego.find();

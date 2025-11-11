@@ -1,4 +1,4 @@
-import Reseña from "../models/Reseña.js";
+import Reseña from "../models/reseña.js";
 
 export const obtenerReseñas = async (req, res) => {
   const reseñas = await Reseña.find({ idJuego: req.params.idJuego });
