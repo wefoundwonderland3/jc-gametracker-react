@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   keywords: ["GameTracker", "videojuegos", "biblioteca", "reseñas", "gaming"],
   authors: [{ name: "GameTracker Team" }],
   icons: {
-    icon: "/logo.svg",
+    icon: "/logo.png",
   },
   openGraph: {
     title: "GameTracker",
